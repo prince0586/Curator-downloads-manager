@@ -36,6 +36,7 @@ RUN THIS -> __pip install watchdog google-generativeai__
 The agent requires a Google AI Studio API key to analyze file types. Replace YOUR_API_KEY with your actual key.
 
 you will find api key in google AI studio.
+
 RUN THIS -> __Windows (CMD): set GOOGLE_API_KEY=YOUR_API_KEY__
 
 RUN THIS -> __macOS/Linux: export GOOGLE_API_KEY='YOUR_API_KEY'__
@@ -50,7 +51,8 @@ Bash
 
 RUN THIS -> __python curator.py__
 
-🛑 How to Stop
+🛑 
+How to Stop
 RUN THIS -> __To stop the agent from monitoring your files, return to the terminal and press: Ctrl + C__
 
 🛠️ How it Works
