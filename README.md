@@ -4,6 +4,7 @@ Curator downloads: Agentic File Curator
 An autonomous AI agent designed to monitor your downloads folder and intelligently organize files using the Gemini 1.5 Flash model and the Watchdog library.
  
 Getting Started
+In Command Prompt OR any IDE Terminal
 Follow these steps to set up the environment and run the agent on your local machine.
 
 #1. Navigate to the Project Directory
