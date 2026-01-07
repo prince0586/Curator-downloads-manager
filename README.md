@@ -2,7 +2,8 @@
 
 An autonomous AI agent designed to monitor your downloads folder and intelligently organize files using the Gemini 1.5 Flash model and the Watchdog library.
 
- Getting Started
+ 
+Getting Started
 Follow these steps to set up the environment and run the agent on your local machine.
 
 1. Navigate to the Project Directory
@@ -20,16 +21,20 @@ Bash
 **python -m venv .venv**
 
 # Activate the environment
+
 # On Windows:
 **.venv\Scripts\activate**
+
 # On macOS/Linux:
 **source .venv/bin/activate**
+
 3. Install Dependencies
 Install the necessary libraries for file system monitoring and AI integration.
 
 Bash
 
 **pip install watchdog google-generativeai**
+
 4. Configure Your API Key
 The agent requires a Google AI Studio API key to analyze file types. Replace YOUR_API_KEY with your actual key.
 
@@ -41,6 +46,7 @@ you will find api key in google AI studio.
 OR
 
 **set api key in .env file, then put it in .gitegnore in github**
+
 5. Run the Agent
 Execute the main script to start monitoring your downloads.
 
