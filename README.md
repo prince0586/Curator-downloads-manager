@@ -1,24 +1,21 @@
-📂 Curator downloads: Agentic File Curator
+📂 
+Curator downloads: Agentic File Curator
 
 An autonomous AI agent designed to monitor your downloads folder and intelligently organize files using the Gemini 1.5 Flash model and the Watchdog library.
-
  
 Getting Started
 Follow these steps to set up the environment and run the agent on your local machine.
 
 #1. Navigate to the Project Directory
-Open your terminal and use the cd command to enter your project folder.
 
+Open your terminal and use the cd command to enter your project folder.
 Bash
 
 __cd path/to/your/Digital-Janitor-Project__
+
 #2. Set Up a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies safely.
-
 Bash
-
-Create the virtual environment
-__python -m venv .venv__
 
 Activate the environment
 
@@ -30,7 +27,6 @@ __source .venv/bin/activate__
 
 #3. Install Dependencies
 Install the necessary libraries for file system monitoring and AI integration.
-
 Bash
 
 __pip install watchdog google-generativeai__
@@ -49,7 +45,6 @@ __set api key in .env file, then put it in .gitegnore in github__
 
 #5. Run the Agent
 Execute the main script to start monitoring your downloads.
-
 Bash
 
 __python curator.py__
