@@ -6,55 +6,56 @@ An autonomous AI agent designed to monitor your downloads folder and intelligent
 Getting Started
 Follow these steps to set up the environment and run the agent on your local machine.
 
-1. Navigate to the Project Directory
+#1. Navigate to the Project Directory
 Open your terminal and use the cd command to enter your project folder.
 
 Bash
 
-**cd path/to/your/Digital-Janitor-Project**
-2. Set Up a Virtual Environment
+__cd path/to/your/Digital-Janitor-Project__
+#2. Set Up a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies safely.
 
 Bash
 
-# Create the virtual environment
-**python -m venv .venv**
+Create the virtual environment
+__python -m venv .venv__
 
-# Activate the environment
+Activate the environment
 
-# On Windows:
-**.venv\Scripts\activate**
+On Windows:
+__.venv\Scripts\activate__
 
-# On macOS/Linux:
-**source .venv/bin/activate**
+On macOS/Linux:
+__source .venv/bin/activate__
 
-3. Install Dependencies
+#3. Install Dependencies
 Install the necessary libraries for file system monitoring and AI integration.
 
 Bash
 
-**pip install watchdog google-generativeai**
+__pip install watchdog google-generativeai__
 
-4. Configure Your API Key
+#4. Configure Your API Key
 The agent requires a Google AI Studio API key to analyze file types. Replace YOUR_API_KEY with your actual key.
 
 you will find api key in google AI studio.
-**Windows (CMD): set GOOGLE_API_KEY=YOUR_API_KEY**
+__Windows (CMD): set GOOGLE_API_KEY=YOUR_API_KEY__
 
-**macOS/Linux: export GOOGLE_API_KEY='YOUR_API_KEY'**
+__macOS/Linux: export GOOGLE_API_KEY='YOUR_API_KEY'__
 
 OR
 
-**set api key in .env file, then put it in .gitegnore in github**
+__set api key in .env file, then put it in .gitegnore in github__
 
-5. Run the Agent
+#5. Run the Agent
 Execute the main script to start monitoring your downloads.
 
 Bash
 
-**python curator.py**
+__python curator.py__
+
 🛑 How to Stop
-**To stop the agent from monitoring your files, return to the terminal and press: Ctrl + C**
+__To stop the agent from monitoring your files, return to the terminal and press: Ctrl + C__
 
 🛠️ How it Works
 Watchdog: Monitors the file system for "Created" or "Moved" events in real-time.
